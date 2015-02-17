@@ -62,6 +62,7 @@ private:
 		SDLJoyAxisMap[4] = JOYSTICK_AXIS_LTRIGGER;
 		SDLJoyAxisMap[5] = JOYSTICK_AXIS_RTRIGGER;
 #else
+		/*
 		SDLJoyButtonMap[0] = NKCODE_DPAD_UP;
 		SDLJoyButtonMap[1] = NKCODE_DPAD_DOWN;
 		SDLJoyButtonMap[2] = NKCODE_DPAD_LEFT;
@@ -78,6 +79,22 @@ private:
 		SDLJoyButtonMap[13] = NKCODE_BUTTON_4;
 		SDLJoyButtonMap[14] = NKCODE_BUTTON_1;
 		SDLJoyButtonMap[15] = NKCODE_BUTTON_11;
+		*/
+
+		SDLJoyButtonMap[0] = DS4_BUTTON_SQUARE;
+		SDLJoyButtonMap[1] = DS4_BUTTON_CROSS;
+		SDLJoyButtonMap[2] = DS4_BUTTON_CIRCLE;
+		SDLJoyButtonMap[3] = DS4_BUTTON_TRIANGLE;
+		SDLJoyButtonMap[4] = NKCODE_BUTTON_L1;
+		SDLJoyButtonMap[5] = NKCODE_BUTTON_R1;
+		SDLJoyButtonMap[6] = NKCODE_BUTTON_L2;
+		SDLJoyButtonMap[7] = NKCODE_BUTTON_R2;
+		SDLJoyButtonMap[8] = DS4_BUTTON_SHARE;
+		SDLJoyButtonMap[9] = DS4_BUTTON_OPTIONS;
+		SDLJoyButtonMap[10] = DS4_BUTTON_L3;
+		SDLJoyButtonMap[11] = DS4_BUTTON_R3;
+		SDLJoyButtonMap[12] = DS4_BUTTON_PS;
+		SDLJoyButtonMap[13] = DS4_BUTTON_PAD;
 
 		SDLJoyAxisMap[0] = JOYSTICK_AXIS_X;
 		SDLJoyAxisMap[1] = JOYSTICK_AXIS_Y;
@@ -85,6 +102,7 @@ private:
 		SDLJoyAxisMap[3] = JOYSTICK_AXIS_RZ;
 		SDLJoyAxisMap[4] = JOYSTICK_AXIS_LTRIGGER;
 		SDLJoyAxisMap[5] = JOYSTICK_AXIS_RTRIGGER;
+
 #endif
 	}
 	std::map<int, int> SDLJoyButtonMap;

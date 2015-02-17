@@ -588,6 +588,17 @@ const KeyMap_IntStrPair key_names[] = {
 	{NKCODE_EXT_MOUSEBUTTON_3, "MB3"},
 	{NKCODE_EXT_MOUSEWHEEL_UP, "MWheelU"},
 	{NKCODE_EXT_MOUSEWHEEL_DOWN, "MWheelD"},
+
+	{DS4_BUTTON_L3, "L3"},
+	{DS4_BUTTON_R3, "R3"},
+	{DS4_BUTTON_OPTIONS, "Options"},
+	{DS4_BUTTON_SHARE, "Share"},
+	{DS4_BUTTON_PAD, "Pad"},
+	{DS4_BUTTON_PS, "PS"},
+	{DS4_BUTTON_CROSS, "Cross"},
+	{DS4_BUTTON_CIRCLE, "Circle"},
+	{DS4_BUTTON_SQUARE, "Square"},
+	{DS4_BUTTON_TRIANGLE, "Triangle"},
 };
 
 const KeyMap_IntStrPair axis_names[] = {
